@@ -1,0 +1,26 @@
+[
+  {
+    "name": "jhon",
+    "email": "jhon@tick.com",
+    "role": "staff",
+    "password":"password"
+  },
+  {
+    "name": "wick",
+    "email": "wick@tick.com",
+    "role": "staff",
+    "password":"password"
+  },
+  {
+    "name": "supervisor",
+    "email": "supervisor@tick.com",
+    "role": "supervisor",
+    "password":"password"
+  },
+  {
+    "name": "leader",
+    "email": "leader@tick.com",
+    "role": "leader",
+    "password":"password"
+  }
+]

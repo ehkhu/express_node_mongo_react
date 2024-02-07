@@ -1,0 +1,96 @@
+[
+  {
+    "_id": "65c26ac0ba559b9f69b1e861",
+    "title": "Implement search functionality",
+    "description": "Suspendisse potenti. Duis auctor risus sit amet urna dapibus, et ultrices purus sollicitudin.",
+    "createdBy": "65c131cad3810634f213cabc",
+    "status": "supervisor_review",
+    "comments": [
+      {
+        "user": "65c131cad3810634f213cabc",
+        "message": "Submitted for review.",
+        "_id": "65c26ac0ba559b9f69b1e863",
+        "timestamp": "2024-02-06T17:22:08.932Z"
+      }
+    ],
+    "createdAt": "2024-02-06T17:22:08.930Z",
+    "updatedAt": "2024-02-06T17:22:08.933Z",
+    "__v": 1,
+    "assignedTo": "65c1b4d4345bf5dfafbd09cd"
+  },
+  {
+    "_id": "65c26b3eba559b9f69b1e873",
+    "title": "Fix broken links on homepage",
+    "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    "createdBy": "65c131cad3810634f213cabc",
+    "status": "supervisor_review",
+    "comments": [
+      {
+        "user": "65c131cad3810634f213cabc",
+        "message": "Submitted for review.",
+        "_id": "65c26b3eba559b9f69b1e875",
+        "timestamp": "2024-02-06T17:24:14.733Z"
+      }
+    ],
+    "createdAt": "2024-02-06T17:24:14.730Z",
+    "updatedAt": "2024-02-06T17:24:14.734Z",
+    "__v": 1,
+    "assignedTo": "65c1b4d4345bf5dfafbd09cd"
+  },
+  {
+    "_id": "65c26b5bba559b9f69b1e886",
+    "title": "Fix login page layout",
+    "description": "More Food and beeLorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "createdBy": "65c131cad3810634f213cabc",
+    "status": "processing",
+    "comments": [
+      {
+        "user": "65c131cad3810634f213cabc",
+        "message": "Submitted for review.",
+        "_id": "65c26b5bba559b9f69b1e888",
+        "timestamp": "2024-02-06T17:24:43.204Z"
+      },
+      {
+        "user": "65c131cad3810634f213cabc",
+        "message": "Submitted for review.",
+        "_id": "65c270c3ba559b9f69b1e96a",
+        "timestamp": "2024-02-06T17:47:47.374Z"
+      },
+      {
+        "user": "65c1b4d4345bf5dfafbd09cd",
+        "message": "Submit to review",
+        "_id": "65c2e357865071be94730638",
+        "timestamp": "2024-02-07T01:56:39.814Z"
+      }
+    ],
+    "createdAt": "2024-02-06T17:24:43.202Z",
+    "updatedAt": "2024-02-07T01:57:33.370Z",
+    "__v": 3,
+    "assignedTo": "65c1b558414b4866a34fc2ec"
+  },
+  {
+    "_id": "65c2e551865071be94730686",
+    "title": "Update user profile component",
+    "description": "Nulla convallis ligula eu sem placerat, sit amet venenatis nibh dictum.",
+    "createdBy": "65c131cad3810634f213cabc",
+    "status": "submitted",
+    "comments": [
+      {
+        "user": "65c131cad3810634f213cabc",
+        "message": "Submitted for review.",
+        "_id": "65c2e551865071be94730688",
+        "timestamp": "2024-02-07T02:05:05.957Z"
+      },
+      {
+        "user": "65c1b4d4345bf5dfafbd09cd",
+        "message": "Please Provide More Information",
+        "_id": "65c2e5b1865071be947306c0",
+        "timestamp": "2024-02-07T02:06:41.878Z"
+      }
+    ],
+    "createdAt": "2024-02-07T02:05:05.953Z",
+    "updatedAt": "2024-02-07T02:06:41.879Z",
+    "__v": 2,
+    "assignedTo": "65c131cad3810634f213cabc"
+  }
+]

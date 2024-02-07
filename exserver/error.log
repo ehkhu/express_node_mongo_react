@@ -1,0 +1,4 @@
+{"level":"error","message":"Fail Ticket Update by 65c1370e7e5fab18474c96fb","timestamp":"2024-02-06T08:02:33.074Z"}
+{"level":"error","message":"Error ReferenceError: AppError is not defined","timestamp":"2024-02-06T08:02:33.074Z"}
+{"level":"error","message":"Error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client","timestamp":"2024-02-06T08:05:40.457Z"}
+{"level":"error","message":"Error CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Ticket\"","timestamp":"2024-02-07T01:54:32.812Z"}

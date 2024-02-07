@@ -1,0 +1,36 @@
+version: '3'
+services:
+
+  # Front End
+  ticket-fe:
+    build:
+      context: ./simple-ticket
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    ports:
+      - '80:80'
+  
+
+  # Backend Service
+  ticket-be:
+    build:
+      context: ./exserver
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - mongo_db_service
+    restart: on-failure
+
+  mongo_db_service:
+    image: mongo
+    ports:
+      - '27019:27019'
+    volumes:
+      - dbdata:/data/db
+
+volumes:
+  dbdata:
