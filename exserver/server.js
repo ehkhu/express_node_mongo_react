@@ -1,3 +1,4 @@
+const cors = require('cors');
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const logger = require("./utils/logger");
@@ -8,7 +9,6 @@ dotenv.config({
 });
 
 //CONNECT MONGODB
-
 if(process.env.NODE_ENV === 'production'){
   const PROD_DB = 'mongodb://mongo_db_service:27019/ticketing-system'
   mongoose.connect(PROD_DB).then(() => {
@@ -24,44 +24,10 @@ if(process.env.NODE_ENV === 'production'){
 
 //START SERVER
 const app = require("./app");
+app.use(cors());
 const port = process.env.PORT || 8000;
 app.listen(port, () => {
   logger.info(`Server is running on port ${port}`);
   console.log(`App is running on port ${port}`);
 });
-
-//add user data if empty
-
-// Function to check if the User model is empty
-const isUserModelEmpty = async () => {
-  try {
-    const count = await User.countDocuments();
-    return count === 0;
-  } catch (error) {
-    console.error('Error checking User model:', error);
-    return false;
-  }
-};
-
-// Function to import data
-const importData = async () => {
-  const users = JSON.parse(fs.readFileSync(`${__dirname}/dev-data/ticketing-system.users.json`, 'utf-8'));
-  try {
-    await User.create(users);
-    console.log('Data Successfully Loaded!');
-  } catch (error) {
-    console.error('Error importing data:', error);
-  }
-};
-
-// Check if User model is empty and import data if it is
-const initializeData = async () => {
-  if (await isUserModelEmpty()) {
-    await importData();
-  } else {
-    console.log('User model is not empty. Skipping data import.');
-  }
-};
-
-initializeData(); 
 

@@ -7,11 +7,9 @@ const getToken = () => {
 const baseURL = 'http://localhost:8000';
 const axios = Axios.create({
     baseURL: baseURL,
-    headers: {
-        'X-Requested-With': 'XMLHttpRequest',
+    "headers": {
+        "Content-Type": "application/json",
     },
-    withCredentials: true,
-    withXSRFToken: true
 })
 // Add a request interceptor to include the token in the headers
 axios.interceptors.request.use(

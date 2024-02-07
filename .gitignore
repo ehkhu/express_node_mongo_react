@@ -1,0 +1,4 @@
+# Ignore dependencies
+# /exserver/node_modules/*
+# /exserver/combined.log
+# /simple-ticket/node_modules/*
